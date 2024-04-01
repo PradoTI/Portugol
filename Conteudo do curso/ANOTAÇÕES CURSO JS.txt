@@ -1,0 +1,173 @@
+De String para Número 
+
+Usa-se
+
+'n' =  numero
+Number.parseInt(n) = Vai ler como numero inteiro
+Number.parseFloat(n) = Vai ler como numero real
+Number(n) = vai ler o que mais fizer sentido
+
+--------------------------------------------------
+
+De numero --> String
+
+'n' =  numero
+String(n)
+n.toString()
+
+------------------------------------------
+
+
+${} - Place Holder 
+`texto ${var} texto ${var} texto ${var}` =  template string
+
+
+"texto" + var + "texto" + var + "texto"  = concatenação
+
+-------------------------------------------------------------------
+
+
+----FORMATAÇÃO DE STRINGS----
+
+   s.length     // conta quantos caracteres a string tem
+s.toUpperCase() // tudo MAIÚSCULO
+s.toLowerCase() // tudo minúsculo
+---------------------------------------------------------------------------
+
+----FORMATAÇÃO DE NUMEROS-----
+
+var.tofixed('escrever aqui quantas casas decimais após o float ')
+// escrita de moeda // var.toLocaleString('pais', {style: 'string', string sem '', 'moeda'})
+
+---------------------------------------------------------------------------
+
+OPERADORES ARITMÉTICOS 
+
+" - " para Subtração
+" + " para adição
+" * " para multiplicação
+" / " para divisão real
+" % " para divisão inteira
+" ** " para potenciação
+ 
+---------------------------------------------------------------------------
+
+
+OPERADORES DE ATRIBUIÇÃO
+
+n++ para somar e receber a própria variável
+n-- para subtrair e receber a própria variável
+
+
+---------------------------------------------------------------------------
+
+OPERADORES RELACIONAIS
+
+sempre terá resultado booleano (true or false)
+
+<  para menor
+>  para maior
+>= para maior ou igual
+<= para menor ou igual
+// = recebe
+== para igual
+=== para idêntico
+!= para diferente
+!== para diferente mas com algo igual
+
+
+---------------------------------------------------------------------------
+
+--MÓDULO C--
+
+° Document Object Model ( DOM )
+° Árvore DOM
+° Manipulando DOM
+
+- Entendendo DOM :
+É usado apenas no navegador
+
+- Arvore DOM :
+
+ A janela do navegador se chama 'window' que é um objeto DOM
+
+ Dentro do window existe :
+  °location : URL; qual pagina atual e pagina anterior
+  
+  ° document : documento atual
+    - html
+      -- body 
+      -- head
+      - head, body : 'child' (filho) do html, já o html é 'parent' dos dois
+Na arvore, quem está acima é 'parent' quem está abaixo é 'child' 
+
+  ° history  : histórico
+
+
+
+             window 
+
+location-----document-----history   
+               html
+         head-------body              
+   meta--title      h1--p-div
+                     strong         
+      
+
+
+-- Seletores de elementos DOM --
+
+-POR MARCA:
+getElementsByTagName()
+
+innerText: seleciona o texto sem especificacao de style 
+innerHTML: seleciona o texto identicamente
+variavel.innerText : busca o texto que esta na variavel 
+
+- POR ID:
+getElementById()
+
+- POR NOME:
+getElemetsByName()
+
+- POR CLASSE: 
+getElementsByClassName()
+
+- POR SELETOR:
+querySelector()
+querySelectorAll()
+
+
+Class == '.'
+Id    == '#'
+
+---------------------------------------------
+
+--Eventos DOM--
+
+-Eventos com o mouse:
+
+variavel.addEventListener('click', clicar)
+variavel.addEventListener('mouseenter', entrar)
+variavel.addEventListener('mouseout', sair)
+
+
+
+
+
+
+    
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
