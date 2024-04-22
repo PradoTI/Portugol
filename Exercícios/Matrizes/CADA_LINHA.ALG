@@ -26,7 +26,7 @@ Inicio
       maior <- mat[i, 0]
       para j de 1 ate n-1 faca
          se mat[i, j] > maior entao
-            maior > mat[i, j]
+            maior <- mat[i, j]
          fimse
       fimpara
       
